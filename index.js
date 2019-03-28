@@ -22,3 +22,20 @@ function each(collection, action) {
     }
 }
 module.exports.each = each;
+module.exports.identity = _.identity;
+module.exports.typeOf = _.typeOf;
+module.exports.first = _.first;
+module.exports.last = _.last;
+module.exports.indexOf = _.indexOf;
+module.exports.contains = _.contains;
+module.exports.each = _.each;
+module.exports.unique = _.unique;
+module.exports.filter = _.filter;
+module.exports.reject = _.reject;
+module.exports.partition = _.partition;
+module.exports.map = _.map;
+module.exports.pluck = _.pluck;
+module.exports.every = _.every;
+module.exports.some = _.some;
+module.exports.reduce = _.reduce;
+module.exports.extend = _.extend;
